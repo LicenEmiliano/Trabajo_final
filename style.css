@@ -33,7 +33,7 @@ h2 {
 }
 .titulo-blanco {
   text-align: center;
-  text-shadow: 2px 2px rgb(38, 39, 39), 6px 6px black;
+  text-shadow: 2px 2px  #678983, 6px 6px black;
   background: linear-gradient(#1497be, #1c2aec) ;
   color: transparent;
   background-clip: text;
