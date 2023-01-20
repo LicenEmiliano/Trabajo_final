@@ -33,9 +33,14 @@ h2 {
 }
 .titulo-blanco {
   text-align: center;
-  text-shadow: 2px 2px gray, 6px 6px black;
+  text-shadow: 2px 2px rgb(38, 39, 39), 6px 6px black;
+  background: linear-gradient(#1497be, #1c2aec) ;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip:text;
+  -moz-background-clip: text;
+  animation: text 5s linear infinite;
 }
-
 svg {
   width: 200px;
   height: 80px;
@@ -91,6 +96,7 @@ header {
   margin-bottom: 20px;
   color: #e6ddc4;
 }
+.reinicio:hover,
 .boton-ver:hover {
   transform: scale(1.1);
 }
@@ -289,5 +295,13 @@ main {
   100% {
     transform: translate(0, 0);
     opacity: 1;
+  }
+}
+@keyframes text {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
   }
 }
