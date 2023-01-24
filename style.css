@@ -120,6 +120,8 @@ footer {
 }
 .titulo-foot {
   font-size: 14px;
+  text-align: center;
+  color: #eeeeee;
 }
 .card-hist {
   display: flex;
