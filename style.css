@@ -320,8 +320,3 @@ main {
     filter: hue-rotate(360deg);
   }
 }
-
-
-.ocultar{
-  display: none;
-}

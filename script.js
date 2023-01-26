@@ -47,7 +47,7 @@ function arrastrado(e){
     e.dataTransfer.setData('Text', elemento.getAttribute('id'));
 }
 
-async function soltado(e){
+function soltado(e){
     e.preventDefault();    
     let id=e.dataTransfer.getData('Text');
     let imagen=document.getElementById(id);
