@@ -14,8 +14,8 @@ const pausarRep=()=>{
 function iniciar(){
     let imagenes=document.querySelectorAll('#cajaimagenes img');
     let soltar=document.getElementById('cajasoltar');  
-    let soltar2  =document.getElementById('cajasoltar2'); 
-    let soltar3 = document.getElementById('cajasoltar3'); 
+    let soltar2=document.getElementById('cajasoltar2'); 
+    let soltar3= document.getElementById('cajasoltar3'); 
 
     for(let i=0; i<imagenes.length; i++){
         imagenes[i].addEventListener('dragstart', arrastrado, false);        
