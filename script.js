@@ -1,4 +1,4 @@
-/*let video=document.querySelector(".video")
+let video=document.querySelector(".video")
 
 const iniciarRep=()=>{      
     video.play()
@@ -6,13 +6,9 @@ const iniciarRep=()=>{
     
 }
 const pausarRep=()=>{      
-    video.pause()
-}
-*/
+    video.pause()}
 
-let menu= document.querySelector('.menu');
-let flag=false;
-let contador=0;
+
 
 
 function iniciar(){
@@ -64,3 +60,4 @@ async function soltado(e){
 function reinicio() {
     window.location.reload();
 }
+iniciar()
