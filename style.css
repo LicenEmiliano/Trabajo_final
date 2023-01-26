@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+
 body {
   background-color: rgb(24, 28, 48);
   font-family: "Montserrat", sans-serif;
@@ -23,6 +25,10 @@ nav {
   list-style-type: none;
   position: relative;
 }
+h1{
+  font-family: "Londrina Shadow", cursive;
+  font-size: 80px;
+}
 
 h2 {
   text-shadow: 2px 2px black;
@@ -33,13 +39,13 @@ h2 {
 }
 .titulo-blanco {
   text-align: center;
-  text-shadow: 2px 2px  #678983, 6px 6px black;
-  background: linear-gradient(#1497be, #1c2aec) ;
+  text-shadow: 2px 2px #678983, 6px 6px black;
+  background: linear-gradient(#1497be, #1c2aec);
   color: transparent;
   background-clip: text;
-  -webkit-background-clip:text;
+  -webkit-background-clip: text;
   -moz-background-clip: text;
-  animation: text 5s linear infinite;
+  animation: text 5s linear infinite; 
 }
 svg {
   width: 200px;
@@ -119,9 +125,9 @@ footer {
   height: 80px;
 }
 .titulo-foot {
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
-  color: #eeeeee;
+  color: #eee7e7;
 }
 .card-hist {
   display: flex;
@@ -230,19 +236,17 @@ footer {
   width: 275px;
   height: 400px;
 }
-.caja:hover{
+.caja:hover {
   background-color: #1d1d1d;
-  
-}
-.caja:hover>p{
-  color: #E6DDC4;
 }
 
-#imagen1,#imagen2,#imagen3{
+#imagen1,
+#imagen2,
+#imagen3 {
   width: 275px;
   height: 400px;
 }
-.reinicio{
+.reinicio {
   display: flex;
   margin: auto;
   padding: 10px 100px;
