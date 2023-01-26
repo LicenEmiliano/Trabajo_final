@@ -230,11 +230,24 @@ footer {
   width: 275px;
   height: 400px;
 }
-.reinicio {
+.caja:hover{
+  background-color: #1d1d1d;
+  
+}
+.caja:hover>p{
+  color: #E6DDC4;
+}
+
+#imagen1,#imagen2,#imagen3{
+  width: 275px;
+  height: 400px;
+}
+.reinicio{
   display: flex;
   margin: auto;
   padding: 10px 100px;
 }
+
 main {
   padding: 100px 20px;
 }
@@ -307,3 +320,5 @@ main {
     filter: hue-rotate(360deg);
   }
 }
+
+
