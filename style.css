@@ -249,29 +249,29 @@ main {
 .item-menu:active {
   transform: translate(3px, 2px);
 }
-.item-link:after,
-.item-link:before {
+.item-link::after,
+.item-link::before {
   content: " ";
   width: 20px;
   height: 15px;
   position: absolute;
   transition: all 0.4s;
 }
-.item-link:after {
+.item-link::after {
   top: -15px;
   left: -8px;
   border-top: 5px solid #678983;
   border-left: 5px solid #678983;
 }
-.item-link:before {
+.item-link::before {
   bottom: -15px;
   right: -8px;
   border-bottom: 5px solid #678983;
   border-right: 5px solid #678983;
 }
 
-.item-link:hover:before,
-.item-link:hover:after {
+.item-link:hover::before,
+.item-link:hover::after {
   width: 120%;
   height: 290%;
 }
