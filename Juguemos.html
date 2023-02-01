@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./imagenes/logo.png" >
+    <link rel="icon" href="./imagenes/logo.png">
     <title>trabajo final</title>
 </head>
 
@@ -48,14 +48,23 @@
         </ul>
     </nav>
     <header>
-        <h1 class="titulo-blanco">JUGUEMOS UN POCO</h1>
+        <div class="banner">
+            <div class="clouds">
+                <h1 class="titulo-blanco">JUGUEMOS UN POCO</h1>
+                <img src="./imagenes/cloud1.png" alt="nube1" style="--i:1;">
+                <img src="./imagenes/cloud2.png" alt="nube2" style="--i:2;">
+                <img src="./imagenes/cloud3.png" alt="nube3" style="--i:3;">
+                <img src="./imagenes/cloud4.png" alt="nube4" style="--i:4;">
+                <img src="../imagenes/cloud5.png" alt="nube5" style="--i:5;">
+            </div>
+        </div>
     </header>
     <main>
         <h2>
             Armemos el rompecabezas y veamos que imagen es...
         </h2>
         <section class="juego">
-            <div class="cajas" >
+            <div class="cajas">
                 <div class="caja" id="cajasoltar">
                     <p>Arrastre y suelte la imágene aquí</p>
                 </div>
@@ -66,13 +75,13 @@
                     <p>Arrastre y suelte la imágene aquí</p>
                 </div>
             </div>
-            <div id="cajaimagenes" >
+            <div id="cajaimagenes">
                 <img id="imagen1" src="./imagenes/rompe2.png" alt="imagen-rompecabezas" />
                 <img id="imagen2" src="./imagenes/Rompe1.png" alt="imagen-rompecabezas" />
                 <img id="imagen3" src="./imagenes/Rompe3.png" alt="imagen-rompecabezas" />
             </div>
         </section>
-        <button onclick="reinicio()"class="botonesvideo reinicio">Reiniciar</button>
+        <button onclick="reinicio()" class="botonesvideo reinicio">Reiniciar</button>
     </main>
     <footer>
         <div class="footer-left">
