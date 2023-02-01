@@ -295,7 +295,7 @@ main {
 .banner .clouds img {
   position: absolute;
   bottom: 0;
-  max-width: 58%;
+  max-width: 75%;
   animation: animate calc(8s * var(--i)) linear infinite;
 }
 @keyframes part {
